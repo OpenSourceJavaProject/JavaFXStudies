@@ -111,6 +111,11 @@ Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/OpenSourceJavaProject/JavaFXStudies.git
    2f32a72..3526b12  teamwork -> teamwork
 
+8. IF there is a change on the repo, you won't be able to commit your changes. so type,
+git pull
+to receive latest repo changes, then;
+git push
+
 
 ********** how to update LOCAL repo **********
 
