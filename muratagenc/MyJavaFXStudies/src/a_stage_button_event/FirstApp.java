@@ -1,12 +1,14 @@
-package a_hello_world;
+package a_stage_button_event;
 
 import javafx.application.*;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.*;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.*;
 
-public class HelloWorld extends Application {
+public class FirstApp extends Application implements EventHandler<ActionEvent> {
 
     Button button;
     
@@ -21,7 +23,9 @@ public class HelloWorld extends Application {
         
         primaryStage.setTitle("Hello World");
         
-        button = new Button("Click me");
+        button = new Button();
+        button.setText("Click me");
+        button.setOnAction(this);
         
         StackPane layout = new StackPane();
         layout.getChildren().add(button);
@@ -30,5 +34,12 @@ public class HelloWorld extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
         
+    }
+    
+    @Override
+    public void handle(ActionEvent event){
+        if(event.getSource() == button){
+            System.out.println("Hello World");
+        }
     }
 }
