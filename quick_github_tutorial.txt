@@ -7,6 +7,36 @@ ISBN: 978-1-491-94974-0
 
 you can find the book online. 
 
+********** intro **********
+
+git is a version control system,
+github is the web version of it.
+
+
+using github, you can see team progress, issues, branches,
+everything you need to manage a large scale software project.
+
+in general, you will have three basic branches;
+-master branch: everything will be merged to this branch eventually
+-feature branch: for each feature, you may have a branch
+-release branch: all releases may have a separate branch, v1.0, v2.0 etc.
+
+your team must have a branching strategy from the beginning of the project
+
+every branch should have a README.md, where you put basic, introduction information about the branch.
+
+commit history for a file will give you the list of commits, who did it and when.
+
+issues list is to report bugs. team members should always keep an eye on the issues.
+
+one of the most important views of a project is Network tab, where you can see all the branches and merges in the project life cycle.
+
+members vs team; members who create a fork of the project. forking means on GitHub, you will have a copy of the project on your GitHub account, not on your local computer. however, teams are created to work on the project and commit their changes from their local repo to the remote repo.
+
+WE ARE NOT GOING TO EDIT ANYTHING ON GITHUB, 
+BUT WE WILL COMMIT ALL OUR CHANGES USING COMMAND LINE GIT COMMANDS.
+
+
 ********** first time installation **********
 
 1. Download and install GitHub to your computer (github.com)
