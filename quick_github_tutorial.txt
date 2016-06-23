@@ -29,9 +29,12 @@ commit history for a file will give you the list of commits, who did it and when
 
 issues list is to report bugs. team members should always keep an eye on the issues.
 
-one of the most important views of a project is Network tab, where you can see all the branches and merges in the project life cycle.
+one of the most important views of a project is Network tab, 
+where you can see all the branches and merges in the project life cycle.
 
-members vs team; members who create a fork of the project. forking means on GitHub, you will have a copy of the project on your GitHub account, not on your local computer. however, teams are created to work on the project and commit their changes from their local repo to the remote repo.
+members vs team; members who create a fork of the project. 
+forking means on GitHub, you will have a copy of the project on your GitHub account, not on your local computer. 
+however, teams are created to work on the project and commit their changes from their local repo to the remote repo.
 
 WE ARE NOT GOING TO EDIT ANYTHING ON GITHUB, 
 BUT WE WILL COMMIT ALL OUR CHANGES USING COMMAND LINE GIT COMMANDS.
@@ -103,7 +106,8 @@ git config --global user.email "your_email@youremail.com"
 
 ********** how to update REMOTE repo **********
 
-when you modify a file or add a new one, you need to update the repo. your local repo should be synchronized with the remote repo.
+when you modify a file or add a new one, you need to update the repo. 
+your local repo should be synchronized with the remote repo.
 
 1. for your JavaFX project files, create a new folder with your initials;
 an example for me would be muratagenc
