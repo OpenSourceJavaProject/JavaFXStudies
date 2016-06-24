@@ -1,5 +1,7 @@
 /*
 creating multiple scenes
+it just changes the content of the current view
+does not switch between inner windows
 */
 
 package d_setup_multiple_scenes;
