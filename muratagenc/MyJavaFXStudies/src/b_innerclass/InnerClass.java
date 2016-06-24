@@ -1,4 +1,4 @@
-package b_innerclass_lambda;
+package b_innerclass;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
