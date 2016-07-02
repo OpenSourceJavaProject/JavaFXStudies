@@ -1,0 +1,16 @@
+.root{
+	-fx-background-color: #383838;
+	-fx-font-size: 10pt;
+}
+
+.button{
+	-fx-background-radius: 5;
+}
+
+.button-login{
+	-fx-background-color: blue;
+}
+
+.button-signup{
+	-fx-background-color: red;
+}
