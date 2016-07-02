@@ -1,20 +1,14 @@
-package sample;
+
+package JavaFXDemo;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-/**
- * Created by ivelisse on 6/27/2016.
- */
-public class Main2 extends Application implements EventHandler<ActionEvent> {
-    //Application is the class that inherits all the functionality, implements the EventHandler interface for executing
-    //handle method when action occurs on an event..ie a button is clicked.
-
+public class Main3 extends Application {
+    //Application is the class that inherits all the functionality
 
     Button button;
 
@@ -25,7 +19,7 @@ public class Main2 extends Application implements EventHandler<ActionEvent> {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         //the application will call a method called start, start is actually overridden because you are inheriting
         //it from the application class. The start method passes in the primaryStage which is the main window for
         //the application.
@@ -33,7 +27,10 @@ public class Main2 extends Application implements EventHandler<ActionEvent> {
         primaryStage.setTitle("Title of the Window"); //sets the title of the window
         button = new Button();
         button.setText("Click me");
-        button.setOnAction(this);//whenever this button is clicked look for handle method below in this class
+        button.setOnAction(e -> { //e stands for the event handler
+            System.out.println("Hey now brown cow");
+            System.out.println("I am a meatball");
+        });
 
         StackPane layout = new StackPane(); //create layout object of the StackPane class
         layout.getChildren().add(button); //add button to the layout
@@ -44,10 +41,4 @@ public class Main2 extends Application implements EventHandler<ActionEvent> {
 
     }
 
-    @Override
-    public void handle(ActionEvent event) {
-        if (event.getSource() == button) {
-            System.out.println("OOoooh I love it when you touch me there");
-        }
-    }
 }
