@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<VBox  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+	<!-- TODO Add Nodes -->
+	<Label >
+		<text>Test Label 1</text>
+	</Label>
+		<Label >
+		<text>Test Label 2</text>
+	</Label>
+	<Button fx:id="button" onAction="#handleButtonClicks">
+		<text>Submit</text>
+	</Button>
+</VBox>
+

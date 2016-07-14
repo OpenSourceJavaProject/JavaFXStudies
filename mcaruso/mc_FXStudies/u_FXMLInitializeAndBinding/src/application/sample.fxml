@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+
+	
+<VBox  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+	<!-- TODO Add Nodes -->
+	<fx:define>
+		<ToggleGroup fx:id="toggle" />
+	</fx:define>
+
+
+	<Label  fx:id="firstLabel">
+		<text>Test Label 1</text>
+	</Label>
+	<Label text="${firstLabel.text}"></Label>
+	
+	<RadioButton text="Easy" toggleGroup="$toggle" />
+	<RadioButton text="Medium"  toggleGroup="$toggle" />
+	<RadioButton text="Hard"  toggleGroup="$toggle" />
+
+
+</VBox>
+
