@@ -1,0 +1,53 @@
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Covered+By+Your+Grace);
+
+body {
+  padding-top: 20px;
+  background: #398cbf;
+}
+
+.joke {
+  width: 400px;
+  margin: auto;
+  background: #3a4654;
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 5px #000;
+}
+
+.joke p {
+   margin: 0px;
+   padding: 30px 0;
+}
+
+button {
+  position: relative;
+  top: -25px;
+    background-color:#2c3643;
+  border: none;
+    display:block;
+  margin: auto;
+    cursor:pointer;
+    color:#fff;
+  font-family: 'Covered By Your Grace', cursive;
+    font-size:30px;
+    padding:6px 18px;
+    text-decoration:none;
+  box-shadow: 0px 0px 5px #000;
+}
+
+button:hover { background-color:#727272; }
+button:focus { outline: none;            }
+
+
+/* Add and Remove using JS */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

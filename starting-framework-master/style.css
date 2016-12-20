@@ -1,0 +1,45 @@
+
+/*
+	STYLE.CSS:
+	One stylesheet to rule them all.
+
+	selector { property:value }
+
+*/
+
+
+
+header {
+  height: 100px;
+  background-color: #2980b9;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+.full-image {
+  width: 100%;
+}
+
+footer {
+  height: 100px;
+  background-color: #2980b9;
+  color: white;
+}
+
+footer p{
+  text-align: center;
+}
